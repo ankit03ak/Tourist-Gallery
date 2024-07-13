@@ -1,0 +1,83 @@
+body{
+    background-image: url(./pics/loginsignup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* justify-content: center; */
+}
+form{
+  
+    /* text-align: center; */
+
+    
+
+}
+h1{
+    font-size: 1.9rem;
+    color: rgb(124, 243, 46);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(72, 72, 72);
+}
+
+.form-label{
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+
+}
+.form-label:hover{
+    cursor: pointer;
+}
+
+.box{
+    height: 38px;
+    width: 370px;
+    font-size: 1.34rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background: transparent;
+}
+
+section{
+    /* margin-left: 32%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid lightblue; */
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+    height: 550px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 5% auto;
+}
+
+button{
+    font-size: 1.3rem;
+    color: rgb(3, 255, 8);
+    background: transparent;
+    margin-top: 25px;
+    height: 40px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  
+}
+button:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 10px blue;
+
+}
+#Create{
+    display: flex;
+    border: none;
+}
+
+.navi-loginsignup{
+    text-decoration: none;
+    font-size: 1.4rem;
+
+}

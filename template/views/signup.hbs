@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>Register Now  </h1>
+         <form class="form" action="/empdata" method="POST">
+          <div>
+            <label class="form-label">Username</label>
+          </div>
+          <div>
+            <input
+              type="text"
+              name="name"
+              class="box"
+              id="username"
+              class="form-control form-control-lg"
+              autocomplete="off"
+            />
+          </div>
+          <div><label class="form-label">Email</label></div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              class="box"
+              id="email"
+              class="form-control form-control-lg"
+              autocomplete="off"
+            />
+          </div>
+          <div><label class="form-label">Phone</label></div>
+          <div>
+            <input
+              type="number"
+              name="phone"
+              class="box"
+              id="phone"
+              class="form-control form-control-lg"
+              autocomplete="off"
+            />
+          </div>
+          <div><label class="form-label">Password</label></div>
+          <div>
+            <input
+              type="password"
+              name="password"
+              class="box"
+              id="password"
+              class="form-control form-control-lg"
+              autocomplete="off"
+            />
+          </div>
+          <div><label class="form-label">Confirm Password</label></div>
+          <div>
+            <input
+              type="password"
+              name="cpassword"
+              class="box"
+              id="cpassword"
+              class="form-control form-control-lg"
+              autocomplete="off"
+            />
+          </div>
+          <div align="center">
+            <button type="submit">Registor Now</button>
+            <a class="navi-loginsignup" href="/login">Login</a> 
+
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

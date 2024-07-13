@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #777;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            
+        }
+
+        h1 {
+            color: #ff5722;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #777;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to the Secret Page!</h1>
+        <p>This is a special page accessible only to authenticated users.</p>
+        <button class="btn" onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+        function logout() {
+            // Redirect to the logout route
+            window.location.href = "/logout";
+        }
+    </script>
+</body>
+
+</html>
